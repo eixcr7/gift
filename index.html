@@ -439,6 +439,7 @@
       <div class="unit"><div class="num" id="num-days">0</div><div class="label">days</div></div>
       <div class="unit"><div class="num" id="num-hours">0</div><div class="label">hours</div></div>
       <div class="unit"><div class="num" id="num-mins">0</div><div class="label">minutes</div></div>
+      <div class="unit"><div class="num" id="num-secs">0</div><div class="label">seconds</div></div>
     </div>
     <div class="counter-caption">…and counting, since June 5th, 2025 🐾</div>
   </div>
@@ -549,10 +550,12 @@
     const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
     const hours = Math.floor((diffMs / (1000 * 60 * 60)) % 24);
     const mins = Math.floor((diffMs / (1000 * 60)) % 60);
+    const secs = Math.floor((diffMs / 1000) % 60);
 
     document.getElementById("num-days").textContent = days;
     document.getElementById("num-hours").textContent = hours;
     document.getElementById("num-mins").textContent = mins;
+    document.getElementById("num-secs").textContent = secs;
   }
 
   updateCounter();
