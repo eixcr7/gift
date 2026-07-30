@@ -323,27 +323,9 @@
     width: 100%;
     aspect-ratio: 4 / 5;
     border-radius: 2px;
-    background: repeating-linear-gradient(
-      135deg,
-      var(--bg-pink-deep),
-      var(--bg-pink-deep) 10px,
-      var(--bg-pink) 10px,
-      var(--bg-pink) 20px
-    );
-    border: 2px dashed var(--bow-pink);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    padding: 12px;
-    font-size: 0.82rem;
-    color: var(--bow-pink-deep);
-    font-weight: 600;
-    line-height: 1.4;
-
-    /* To swap in a real screenshot: replace this div's contents with
-       <img src="your-screenshot.jpg" alt="..." style="width:100%;height:100%;object-fit:cover;border-radius:2px;">
-       and you can remove the dashed border / background above. */
+    object-fit: cover;
+    display: block;
+    background: var(--bg-pink-deep);
   }
 
   .polaroid figcaption{
@@ -429,7 +411,7 @@
 
     <div class="eyebrow">💌 our little corner of the internet</div>
 
-    <h1>Happy 1 Year,<br><span class="name">[ Cath ]</span> 🩷</h1>
+    <h1>Happy 1 Year,<br><span class="name">[ Katarina ]</span> 🩷</h1>
     <p class="sub">
       Every day with you has felt like the softest, pinkest little adventure.
       Here's a whole year of us, wrapped up just for you.
@@ -453,12 +435,11 @@
 
   <div class="note-card">
     <p class="placeholder">
-      [ This is where your love note goes! Something like: "A year ago I didn't know
-      a chat window could turn into my favorite part of every day. Thank you for
-      every good morning text, every late night call, every time you made me laugh
-      when I really needed it. I can't wait for everything still ahead of us." ]
+      Before I met you, I didn't know spending time on discord could turn into the best event of my life, a chat window could turn into my favorite part of every day. Thank you for
+      every good morning/night text, every call, every time you made me laugh
+      when I really needed it. I can't wait for everything still ahead of us.
     </p>
-    <div class="signoff">— [ Yours truly ]</div>
+    <div class="signoff">— [ Yours Truly, Adel ]</div>
   </div>
 </section>
 
@@ -471,38 +452,68 @@
   <div class="scrapbook">
     <figure class="polaroid">
       <div class="tape"></div>
-      <div class="photo-slot">drop your first<br>screenshot here</div>
-      <figcaption>[ caption — e.g. "the first thing you ever said to me" ]</figcaption>
+      <img class="photo-slot" src="images/official.jpg" alt="the moment we made it official">
+      <figcaption>the moment it became official 🥹</figcaption>
     </figure>
 
     <figure class="polaroid">
       <div class="tape"></div>
-      <div class="photo-slot">screenshot #2</div>
-      <figcaption>[ caption ]</figcaption>
+      <img class="photo-slot" src="images/mem-02-married-bot.png" alt="discord marriage bot moment">
+      <figcaption>discord called it before we did</figcaption>
     </figure>
 
     <figure class="polaroid">
       <div class="tape"></div>
-      <div class="photo-slot">screenshot #3</div>
-      <figcaption>[ caption ]</figcaption>
+      <img class="photo-slot" src="images/mem-03-tweakout.jpg" alt="profile picture reaction">
+      <figcaption>the profile pic that started chaos</figcaption>
     </figure>
 
     <figure class="polaroid">
       <div class="tape"></div>
-      <div class="photo-slot">screenshot #4</div>
-      <figcaption>[ caption ]</figcaption>
+      <img class="photo-slot" src="images/mem-05-whatsapp.jpg" alt="whatsapp conversation">
+      <figcaption>every little back-and-forth, even about nothing</figcaption>
     </figure>
 
     <figure class="polaroid">
       <div class="tape"></div>
-      <div class="photo-slot">screenshot #5</div>
-      <figcaption>[ caption ]</figcaption>
+      <img class="photo-slot" src="images/mem-04-miku.jpg" alt="miku approving of the nickname">
+      <figcaption>even the game NPCs approved</figcaption>
     </figure>
 
     <figure class="polaroid">
       <div class="tape"></div>
-      <div class="photo-slot">screenshot #6</div>
-      <figcaption>[ caption ]</figcaption>
+      <img class="photo-slot" src="images/mem-06-yourz-mine.jpg" alt="I'm yours, you're mine">
+      <figcaption>"i'm yourz." "you're mine."</figcaption>
+    </figure>
+
+    <figure class="polaroid">
+      <div class="tape"></div>
+      <img class="photo-slot" src="images/mem-07-goodnight.jpg" alt="sleepy goodnight typos">
+      <figcaption>falling asleep mid-sentence, every time</figcaption>
+    </figure>
+
+    <figure class="polaroid">
+      <div class="tape"></div>
+      <img class="photo-slot" src="images/mem-08-fullcombo.jpg" alt="full combo together in game">
+      <figcaption>full combo, together</figcaption>
+    </figure>
+
+    <figure class="polaroid">
+      <div class="tape"></div>
+      <img class="photo-slot" src="images/mem-09-french.png" alt="finding out we're both french">
+      <figcaption>the very normal way we found out we're both french</figcaption>
+    </figure>
+
+    <figure class="polaroid">
+      <div class="tape"></div>
+      <img class="photo-slot" src="images/mem-10-msgstats.jpg" alt="message count stats">
+      <figcaption>22,884 and 29,479 messages later</figcaption>
+    </figure>
+
+    <figure class="polaroid">
+      <div class="tape"></div>
+      <img class="photo-slot" src="images/mem-11-karuta.png" alt="karuta card drop">
+      <figcaption>our very serious card-collecting hobby</figcaption>
     </figure>
   </div>
 </section>
